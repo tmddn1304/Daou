@@ -2,6 +2,33 @@
 <br>
 <br>
 
+### [프로젝트 개요]
+> 통신사로 부터 받아온 번호를 각 서비스업체(다른 기업)들에게 FAX, MO, 080 등의 대역번호를 편리하게 제공하고 관리 할 수 있는 홈페이지
+
+### [프로젝트 구성]
+  
++ 홈
+  + 로그인페이지
+  + 대쉬보드
+
++ 번호대역 관리 페이지
+  + 번호대역 조회
+  + 번호대역 할당
+  + 번호대역 이력
+
++ 수신번호 관리 페이지
+  + 수신번호 조회
+  + 수신번호 할당
+  + 수신번호 이력
+
+<br>
+<br>
+
+## 기술스택
+SpringBoot, Vue, Vuetify, Maria DB
+
+<br>
+<br>
 
 ## 프로젝트 진행상황 체크리스트
 https://docs.google.com/spreadsheets/d/1uy5L7eL0n1qLjw2O284XZseYmEsrvhGERsg19JEGIL8/edit?ouid=112686129255150654199&usp=sheets_home&ths=true
@@ -69,13 +96,11 @@ Npm install vuex --save
 Npm install d3 --save
 
 Vue add element
+
 Y full ko 선택
 
 Npm run serve(실행방법)
 -> 실행하면 npm -ㅁㅁㅁㅁ 들이 나오는데 그거 명령어 
-npm install -ㅁㅁ 이런식으로 설치 후
+npm install -ㅁㅁ 이런식으로 설치가 필요합니다.
 
 될때까지  npm run serve
-
-<br>
-<br>
